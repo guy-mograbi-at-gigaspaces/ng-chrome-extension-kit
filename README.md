@@ -1,5 +1,6 @@
 
-![Build Status](https://travis-ci.org/travis-ci/travis-web.svg)
+
+[![Build Status](https://travis-ci.org/guy-mograbi-at-gigaspaces/ng-chrome-extension-kit.svg?branch=master)](https://travis-ci.org/guy-mograbi-at-gigaspaces/ng-chrome-extension-kit)
 
 # ng-chrome-extension-kit
 A library that helps you develop chrome extensions with angular. implements chrome extensions with mocks 

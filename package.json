@@ -1,0 +1,19 @@
+{
+  "name": "ng-chrome-extension-kit",
+  "version": "0.0.0",
+  "description": "A library that helps you develop chrome extensions with angular. implements chrome extensions with mocks",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guy-mograbi-at-gigaspaces/ng-chrome-extension-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guy-mograbi-at-gigaspaces/ng-chrome-extension-kit/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.11.2"
+  }
+}

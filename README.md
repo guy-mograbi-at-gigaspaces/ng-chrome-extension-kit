@@ -1,5 +1,5 @@
 
-[![Build Status](https://travis-ci.org/travis-ci/travis-web.svg)]
+![Build Status](https://travis-ci.org/travis-ci/travis-web.svg)
 
 # ng-chrome-extension-kit
 A library that helps you develop chrome extensions with angular. implements chrome extensions with mocks 

@@ -33,7 +33,11 @@ angular.module('chrome').service('chrome', ['$timeout', '$q', '$log', function C
             chrome.browserAction.setBadgeText(opts);
 
         } catch (e) {
-            $log.info('setting badge', opts, e);
+            if ( !e || !e.message || e.message.index('undefined') < 0 ) { // we expect 'undefined' to be thrown
+                $log.info('setting badge', opts, e);
+            }else{ // any other error is interesting..
+                $log.info('setting badge', opts);
+            }
         }
     };
 
